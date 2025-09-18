@@ -1,12 +1,69 @@
-# React + Vite
+# 🎶 Clone Spotify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dự án web clone giao diện Spotify sử dụng **React + Vite**.  
+Mục tiêu là thực hành React component, quản lý layout, và tổ chức source code theo module.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Công nghệ sử dụng
+- React – thư viện UI  
+- Vite – công cụ build  
+- CSS – styling  
+- Node.js – môi trường chạy  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Cấu trúc thư mục
+src  
+ ├── assets/             # Chứa hình ảnh, icon, tài nguyên  
+ ├── components/         # Các component chính  
+ │   ├── ArtistInfo/     # Thông tin nghệ sĩ  
+ │   ├── Footer/         # Chân trang  
+ │   ├── Header/         # Thanh header  
+ │   ├── Login/          # Màn hình đăng nhập  
+ │   ├── MainContent/    # Nội dung chính (Episodes, Podcast…)  
+ │   └── Sidebar/        # Sidebar điều hướng  
+ ├── App.jsx             # Root component  
+ ├── Home.jsx            # Trang chính  
+ ├── main.jsx            # Điểm khởi chạy React  
+ └── index.css           # File CSS toàn cục  
+
+---
+
+## 🛠️ Cài đặt & Chạy dự án
+1. Clone repo  
+   git clone https://github.com/Han2412/Clone-Spotify.git  
+   cd Clone-Spotify  
+
+2. Cài dependencies  
+   npm install  
+
+3. Chạy ứng dụng (dev mode)  
+   npm run dev  
+
+4. Build production  
+   npm run build  
+
+---
+
+## ✨ Tính năng chính
+- Giao diện clone Spotify (header, sidebar, main content, footer).  
+- Component tách biệt, dễ quản lý.  
+- Layout responsive (có thể mở rộng).  
+
+---
+
+## 📸 Demo
+
+
+---
+
+## 📌 Ghi chú
+Dự án chỉ clone phần **giao diện** để học React, chưa có tính năng phát nhạc thực sự.  
+
+---
+
+
+
+
+

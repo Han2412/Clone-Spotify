@@ -1,4 +1,4 @@
-# 🎶 Clone Spotify
+`# 🎶 Clone Spotify
 
 Dự án web clone giao diện Spotify sử dụng **React + Vite**.  
 Mục tiêu là thực hành React component, quản lý layout, và tổ chức source code theo module.
@@ -32,8 +32,9 @@ src
 
 ## 🛠️ Cài đặt & Chạy dự án
 1. Clone repo  
-   git clone https://github.com/Han2412/Clone-Spotify.git  
-   cd Clone-Spotify  
+   ```bash
+   git clone https://github.com/Han2412/Clone-Spotify.git
+   cd Clone-Spotify
 
 2. Cài dependencies  
    npm install  

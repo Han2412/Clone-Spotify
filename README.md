@@ -37,13 +37,16 @@ src
    cd Clone-Spotify
 
 2. Cài dependencies  
-   npm install  
+     ```bash
+     npm install  
 
-3. Chạy ứng dụng (dev mode)  
+4. Chạy ứng dụng (dev mode)  
+     ```bash
    npm run dev  
 
-4. Build production  
-   npm run build  
+6. Build production  
+     ```bash
+     npm run build  
 
 ---
 
